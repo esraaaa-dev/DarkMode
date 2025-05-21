@@ -7,7 +7,7 @@ iOS 17 ile birlikte traitCollectionDidChange(_:) fonksiyonu kaldırıldı. Bu fo
 Artık bu tür arayüz değişikliklerini yakalamak için viewWillTransition(to:with:) fonksiyonunu kullanıyoruz. Bu fonksiyon, ekran boyutu değişikliği ve arayüz değişimleri sırasında çağrılıyor ve animasyonların senkronize yapılmasını sağlıyor.
 
 
-#Neden Değişti?
+# Neden Değişti?
 Yeni yöntem, hem ekran boyutu değişikliklerinde hem de tema gibi görünüm değişikliklerinde senkronize animasyon yapmaya imkan tanıyor.
 
 Bu sayede kullanıcı arayüzü geçişleri daha akıcı oluyor.
